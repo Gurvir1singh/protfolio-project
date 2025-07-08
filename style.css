@@ -418,7 +418,7 @@ body {
     width: 100%;
     /* height: 80vh; */
     /* background: rgb(79, 76, 76); */
-    padding:2vw;
+    padding: 2vw;
 }
 
 #testimonial-text {
@@ -454,7 +454,7 @@ body {
 }
 
 #testimonial-cards .cards {
-     background-color: #595f6862;
+    background-color: #595f6862;
     color: #ffffff;
     width: 20vw;
     min-height: 15vw;
@@ -469,22 +469,23 @@ body {
     transform: translateY(-10px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
+
 #testimonial-cards .cards img {
     /* border: 2px solid gold; */
 
-    width:6vw;
-    height:6vw;
-    object-fit:cover;
-    border-radius:50%;
-    
-    
+    width: 6vw;
+    height: 6vw;
+    object-fit: cover;
+    border-radius: 50%;
+
+
 }
 
 #testimonial #testimonial-cards i {
     font-size: 1.5rem;
     margin-bottom: 2vw;
     color: #eae732;
-    line-height: 5vw;   
+    line-height: 5vw;
 }
 
 
@@ -502,15 +503,16 @@ body {
 
 
 /* contact us sections */
-#contact{
-    width:100%;
-    height:80vh;
+#contact {
+    width: 100%;
+    height: 80vh;
     /* background:salmon; */
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
 
 }
+
 #contact-text {
 
     color: white;
@@ -533,60 +535,137 @@ body {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
 
-#contact-container{
-    display:flex;
-    width:80%;
-    height:100%;
+#contact-container {
+    display: flex;
+    width: 80%;
+    height: 100%;
     /* background: blueviolet; */
     align-items: center;
-    justify-content:space-between;
-    gap:1vw;
+    justify-content: space-between;
+    gap: 1vw;
     /* padding: 0 10vw ; */
-     color:#adb4bffe;
+    color: #adb4bffe;
 }
-#contact-left{
-    display:flex;
-    flex-direction:column;
+
+#contact-left {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
     /* background: red; */
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
 
 }
-#contact-left #info-text{
-    display: flex;flex-direction: column;gap:1vw;
+
+#contact-left #info-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
 }
-#contact-right{
+
+#contact-right {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width:100%;
-    height:100%;
-    
-}
-#contact-right iframe{
-   
-    width:100%;
-    height:100%;
-    padding:4vw;
+    width: 100%;
+    height: 100%;
+
 }
 
-.social-media-container{
+#contact-right iframe {
+
+    width: 100%;
+    height: 100%;
+    padding: 4vw;
+}
+
+.social-media-container {
     display: flex;
-    font-size:2rem;
-    gap:3vw 1vw;
+    font-size: 2rem;
+    gap: 3vw 1vw;
     align-items: center;
-    color:#adb4bffe;
-   
+    color: #adb4bffe;
+
 }
 
-.social-media-container .logo:hover{
-   color:white;
+.social-media-container .logo:hover {
+    color: white;
 }
-#footer{
-    width:100%;
-    height:50%;
-    background: rgb(26, 98, 128);
+
+#footer {
+    width: 100%;
+    height: 40%;
+    /* background: rgb(26, 98, 128); */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#footer #section-container {
+    padding: 2vw 1vw;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 2vw;
+    /* background: greenyellow; */
+    /* border:2px solid grey; */
+
+}
+
+#footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: .5vw;
+}
+
+#footer-left .about-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    margin-top: 1vw;
+}
+
+#footer-center {}
+
+#footer-center #navlinks {
+    display: flex;
+    flex-direction: column;
+    gap: .3vw;
+
+}
+
+#footer-center #navlinks a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-center #navlinks a:hover {
+
+    color: rgb(194, 194, 194);
+}
+
+#footer-right {}
+
+#footer-center h3,
+#footer-right h3 {
+    margin-bottom: 1vw;
+}
+
+#footer #section-container .inside-container {
+
+    /* border:2px solid grey; */
+
+}
+
+
+#footer #copyrights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* height:2vw; */
+    height:2rem;
 }
